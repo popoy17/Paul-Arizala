@@ -1,0 +1,159 @@
+.font-robo {
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
+
+.col-2 {
+  width: ((100% - 60px) / 2);
+  width: ((100% - 60px) / 2);
+  width: ((100% - 60px) / 2);
+}
+
+@media (max-width: 767px) {
+  .col-2 {
+    width: 100%;
+  }
+}
+
+html {
+  
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset {
+  min-width: 0;
+  border: 0;
+}
+
+button {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.wrapper--w960 {
+  max-width: 960px;
+}
+
+.wrapper--w780 {
+  max-width: 780px;
+}
+
+.wrapper--w680 {
+  max-width: 680px;
+}
+
+.btn {
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 33px;
+  font-family: Poppins, Arial, sans-serif;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.4s ease;
+  font-size: 18px;
+  border-radius: 100px;
+}
+
+.btn--white {
+  background: #33ccff;
+}
+
+.btn--green:hover {
+  background: #4dae3c;
+}
+
+input {
+  outline: none;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 33px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.input--style-3 {
+  padding: 5px 0;
+  font-size: 16px;
+  color: #ccc;
+  background: transparent;
+}
+
+.title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+.card {
+  overflow: hidden;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.card-3 {
+  background:linear-gradient(57deg, rgba(127,40,189,1) 0%, rgba(60,138,109,1) 70%);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  display: table;
+}
+
+.card-3 .card-body {
+  padding: 57px 65px;
+  padding-bottom: 65px;
+  display: table-cell;
+}
+
+@media (max-width: 767px) {
+  .card-3 {
+    display: block;
+  }
+  .card-3 .card-heading {
+    display: block;
+    width: 100%;
+    padding-top: 400px;
+    background-position: center;
+  }
+  .card-3 .card-body {
+    display: block;
+    width: 100%;
+    padding: 37px 30px;
+    padding-bottom: 45px;
+  }
+}
